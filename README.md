@@ -33,8 +33,23 @@ $ sudo docker-compose up -d
 
 ```
 
+* See Logs 
 
-Finally :) See http://127.0.0.1
+```bash
+# First see Whats the name of wordpress container with this
+
+$ sudo docker ps -a     # it will show all of your container
+
+$ sudo docker logs <container_name>
+
+```
+
+
+
+http://127.0.0.1  ==> Wordpress 
+http://127.0.0.1:8080  ==> phpmyadmin
+
+Finally 
 #### * Note :
 
 Remember that port 80 must be Free . if you have installed Apache , ngninx , or , httpd 
