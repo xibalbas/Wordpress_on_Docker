@@ -53,5 +53,7 @@ http://127.0.0.1:8080  ==> phpmyadmin
 Finally 
 #### * Note :
 
-Remember that port 80 must be Free . if you have installed Apache , ngninx , or , httpd 
+* Remember that port 80 must be Free . if you have installed Apache , ngninx , or , httpd 
 you must stop these service
+
+* you can change your DataBase Password From .yml file
