@@ -43,8 +43,10 @@ $ sudo docker ps -a     # it will show all of your container
 $ sudo docker logs <container_name>
 
 ```
-
-
+* Solve Upload Limite
+```bash
+$ docker container exec -it 9ddd9bded663 bash -c "echo 'php_value upload_max_filesize 256M' > '/var/www/html/.htaccess'"
+```
 
 http://127.0.0.1  ==> Wordpress 
 
